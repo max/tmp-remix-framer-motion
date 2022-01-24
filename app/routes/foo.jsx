@@ -33,7 +33,7 @@ export default function Foo() {
             initial="initial"
             animate="in"
             exit="out"
-            key={location.pathname} /* added a key because otherwise no route transition is */
+            key={location.pathname} /* added a key because otherwise no route transition is happening at all */
             variants={pageVariants}
           >
             <Outlet />
